@@ -1,0 +1,89 @@
+  :root {
+            --primary: #F9A825;
+            --secondary: #0077B6;
+            --accent: #E63946;
+            --light: #F1FAEE;
+            --dark: #1D3557;
+            --text: #333333;
+        }
+        
+        body {
+            font-family: 'Georgia', serif;
+            color: var(--text);
+            line-height: 1.6;
+        }
+        
+        .culture-header {
+            background-color: var(--primary);
+            color: white;
+            padding: 3rem 0;
+            margin-bottom: 2rem;
+            border-bottom: 5px solid var(--dark);
+        }
+        
+        .news-card {
+            border: none;
+            border-radius: 0;
+            margin-bottom: 2rem;
+            transition: all 0.3s ease;
+        }
+        
+        .news-card:hover {
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .news-card .card-img-top {
+            height: 200px;
+            object-fit: cover;
+            border-radius: 0;
+        }
+        
+        .news-card .card-title {
+            font-family: 'Helvetica', sans-serif;
+            font-weight: 700;
+            color: var(--dark);
+        }
+        
+        .news-date {
+            color: var(--primary);
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+        
+        .section-title {
+            border-left: 5px solid var(--primary);
+            padding-left: 15px;
+            margin: 2rem 0;
+        }
+        
+        .featured-news {
+            border-bottom: 3px solid var(--primary);
+            padding-bottom: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .culture-sidebar {
+            border-left: 1px solid #eee;
+            padding-left: 2rem;
+        }
+        
+        .sidebar-title {
+            background-color: var(--dark);
+            color: white;
+            padding: 10px 15px;
+            margin-bottom: 1rem;
+        }
+        
+        .sidebar-item {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px dashed #ddd;
+        }
+        
+        @media (max-width: 768px) {
+            .culture-sidebar {
+                border-left: none;
+                padding-left: 0;
+                margin-top: 3rem;
+            }
+        }
