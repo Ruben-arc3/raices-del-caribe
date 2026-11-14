@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustración genérica de mochila tejida</title>
+  <desc id="desc">Bolso textil de colores sobre fondo cálido, imagen ilustrativa de producto.</desc>
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#efe8d8"/><stop offset="1" stop-color="#d8c7aa"/></linearGradient>
+    <linearGradient id="bag" x2="1" y2="1"><stop stop-color="#d84c36"/><stop offset=".5" stop-color="#edaa38"/><stop offset="1" stop-color="#286a63"/></linearGradient>
+    <pattern id="weave" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M0 0 48 48M48 0 0 48" stroke="#fff0c7" stroke-width="8" opacity=".75"/><path d="M24 0v48M0 24h48" stroke="#263e39" stroke-width="5" opacity=".82"/></pattern>
+    <filter id="shadow" x="-.3" y="-.3" width="1.6" height="1.7"><feGaussianBlur stdDeviation="17"/></filter>
+  </defs>
+  <rect width="900" height="900" fill="url(#bg)"/><circle cx="700" cy="155" r="105" fill="#f8f2e5" opacity=".45"/>
+  <ellipse cx="452" cy="760" rx="245" ry="44" fill="#51483b" opacity=".2" filter="url(#shadow)"/>
+  <path d="M322 360c-20-205 38-280 128-280s148 75 128 280" fill="none" stroke="#2a4038" stroke-width="35"/>
+  <path d="M290 330q160-75 320 0l35 320q-195 110-390 0z" fill="url(#bag)" stroke="#563d32" stroke-width="14"/>
+  <path d="M290 330q160-75 320 0l35 320q-195 110-390 0z" fill="url(#weave)" opacity=".74"/>
+  <path d="M290 390q160 62 320 0M280 582q170 62 350 0" fill="none" stroke="#fff0c7" stroke-width="16" opacity=".85"/>
+  <path d="M405 327q45-32 90 0" fill="none" stroke="#573b30" stroke-width="13"/>
+  <circle cx="450" cy="363" r="14" fill="#efd4a3" stroke="#563d32" stroke-width="5"/>
+  <text x="450" y="820" text-anchor="middle" fill="#465247" font-family="sans-serif" font-size="24" letter-spacing="5">IMAGEN ILUSTRATIVA</text>
+</svg>

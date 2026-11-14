@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustración genérica de canasto de fibras</title>
+  <desc id="desc">Canasto tejido en tonos naturales con asa trenzada, imagen ilustrativa.</desc>
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#edf0e7"/><stop offset="1" stop-color="#d9dfd1"/></linearGradient>
+    <linearGradient id="fiber" x2="0" y2="1"><stop stop-color="#c79960"/><stop offset="1" stop-color="#895b36"/></linearGradient>
+    <pattern id="basketweave" width="46" height="38" patternUnits="userSpaceOnUse"><path d="M0 10h46M0 29h46" stroke="#f0d4a3" stroke-width="9"/><path d="M12 0v38M34 0v38" stroke="#70492f" stroke-width="8" opacity=".75"/></pattern>
+    <filter id="shadow"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="900" height="900" fill="url(#bg)"/><circle cx="690" cy="190" r="120" fill="#fff" opacity=".42"/>
+  <ellipse cx="451" cy="758" rx="250" ry="43" fill="#41473b" opacity=".2" filter="url(#shadow)"/>
+  <path d="M290 480c0-222 75-302 160-302s160 80 160 302" fill="none" stroke="#815c3d" stroke-width="24"/>
+  <path d="M242 420q208 55 416 0l-43 290q-165 80-330 0z" fill="url(#fiber)" stroke="#755234" stroke-width="15"/>
+  <path d="M242 420q208 55 416 0l-43 290q-165 80-330 0z" fill="url(#basketweave)" opacity=".9"/>
+  <path d="M240 430q210 42 420 0" fill="none" stroke="#e7c48e" stroke-width="27"/>
+  <path d="M282 685q168 48 336 0" fill="none" stroke="#68472f" stroke-width="15"/>
+  <text x="450" y="820" text-anchor="middle" fill="#465247" font-family="sans-serif" font-size="24" letter-spacing="5">IMAGEN ILUSTRATIVA</text>
+</svg>

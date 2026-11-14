@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustración genérica de sombrero tejido</title>
+  <desc id="desc">Sombrero de ala ancha con bandas tejidas en tonos naturales y oscuros, imagen ilustrativa.</desc>
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#eee8db"/><stop offset="1" stop-color="#d9ceb9"/></linearGradient>
+    <linearGradient id="straw" x2="0" y2="1"><stop stop-color="#f0dfb7"/><stop offset="1" stop-color="#b38b53"/></linearGradient>
+    <filter id="shadow"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="900" height="900" fill="url(#bg)"/><circle cx="215" cy="185" r="115" fill="#fbf6eb" opacity=".55"/>
+  <ellipse cx="450" cy="708" rx="315" ry="50" fill="#51483b" opacity=".2" filter="url(#shadow)"/>
+  <path d="M157 544q293-184 586 0c-18 120-126 194-293 194s-275-74-293-194Z" fill="url(#straw)" stroke="#51402d" stroke-width="16"/>
+  <path d="M157 544q293-184 586 0-293 125-586 0Z" fill="#27332b" stroke="#473929" stroke-width="12"/>
+  <path d="M198 549q252 99 504 0M224 590q226 77 452 0" fill="none" stroke="#e8d5ac" stroke-width="22"/>
+  <path d="M305 540c10-163 65-258 145-258s135 95 145 258q-145 73-290 0Z" fill="url(#straw)" stroke="#51402d" stroke-width="14"/>
+  <path d="M326 429q124 58 248 0M313 479q137 66 274 0" fill="none" stroke="#27332b" stroke-width="34"/>
+  <path d="M321 447q129 59 258 0" fill="none" stroke="#e8d5ac" stroke-width="9"/>
+  <text x="450" y="820" text-anchor="middle" fill="#465247" font-family="sans-serif" font-size="24" letter-spacing="5">IMAGEN ILUSTRATIVA</text>
+</svg>
